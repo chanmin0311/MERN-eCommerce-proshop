@@ -5,7 +5,7 @@ import logo from "../assets/logo.png";
 const Header = () => {
     return (
         <header>
-            <Navbar bg="dark" variant="dark" expand="md" coollapseOnSelect>
+            <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
                 <Container>
                     <LinkContainer to="/">
                         <Navbar.Brand>
@@ -13,7 +13,7 @@ const Header = () => {
                             ProShop
                         </Navbar.Brand>
                     </LinkContainer>
-                    <Navbar.Toggle aria-conraits="basic-navbar-nav" />
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
                             <LinkContainer to="/cart">
